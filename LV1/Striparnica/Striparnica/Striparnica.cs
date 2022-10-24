@@ -43,7 +43,7 @@ namespace Striparnica
         {
             // pokušaj pronalaska izdavača 1
             bool PRONAŠAO = true;
-            while (PRONAŠAO = false)
+            while (PRONAŠAO == false)
             {
                 IZDAVAČI.ForEach(i => i.ImeFirme = IMEFIRME);
             }
